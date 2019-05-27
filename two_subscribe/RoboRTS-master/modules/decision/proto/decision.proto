@@ -1,0 +1,34 @@
+syntax = "proto2";
+package rrts.decision;
+
+message SelectPatrolMode {
+    optional int32 mode = 1;
+}
+
+message Point {
+    optional float x = 1;
+    optional float y = 2;
+    optional float z = 3;
+
+    optional float roll  = 4;
+    optional float pitch = 5;
+    optional float yaw   = 6;
+}
+
+message Points {
+    repeated Point point = 1;
+}
+
+message DecisionConfig {
+    optional Points defendpoint = 1;
+    optional Points departpoint = 2;
+    optional Points occupypoint = 3;
+    optional Points monitorpoint = 4;
+    optional Points patrolpoint = 5;
+    optional Points onepatrolpoint = 6;
+    optional Points twopatrolpoint = 7;
+    optional Points threepatrolpoint = 8;
+    optional Points smallpatrolpoint = 9;
+    optional SelectPatrolMode selectpatrolmode = 10;
+}
+

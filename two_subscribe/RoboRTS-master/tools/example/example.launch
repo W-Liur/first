@@ -1,0 +1,12 @@
+<launch>
+  <master auto="start"/>
+  <arg name="map"/>
+  <!-- Run the map server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(env ROBORTS_PATH)/tools/map/$(arg map).yaml" respawn="false" />
+   <node name="urg_node" pkg="urg_node" type="urg_node" output="screen" respawn="true">
+   </node>
+  <!-- Run the rviz -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(env ROBORTS_PATH)/tools/rviz/rm.rviz" />
+   
+</launch>
+

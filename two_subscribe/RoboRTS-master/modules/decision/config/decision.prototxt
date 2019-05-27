@@ -1,0 +1,194 @@
+defendpoint {
+  point {
+    x: 1.0
+    y: 1.0
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+  point {
+    x: 7.0
+    y: 4.0
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+}
+departpoint {
+  point {
+    x: 1.55
+    y: 3.1
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+  point {
+    x: 3.5
+    y: 3.0
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+}
+occupypoint {
+  point {
+    x: 1.0
+    y: 1.0
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+  point {
+    x: 0.6
+    y: 3.85
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+}
+monitorpoint {
+  point {
+    x: 1.0
+    y: 1.0
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+  point {
+    x: 1.2
+    y: 4.3
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+}
+patrolpoint {
+  point {
+    x: 3.5
+    y: 4.2
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+  point {
+    x: 5.2
+    y: 1.2
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+}
+onepatrolpoint {
+  point {
+    x: 2.6
+    y: 2.5
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+  point {
+    x: 5.4
+    y: 0.665
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+}
+twopatrolpoint {
+  point {
+    x: 2.6
+    y: 3.2
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+  point {
+    x: 5.4
+    y: 0.665
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+}
+threepatrolpoint {
+  point {
+    x: 2.6
+    y: 4.5
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+  point {
+    x: 5.4
+    y: 0.665
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+}
+smallpatrolpoint {
+  point {
+    x: 4.0
+    y: 1.5
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+  point {
+    x: 4.5
+    y: 0.4
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+  point {
+    x: 5.0
+    y: 0.8
+    z: 0
+
+    roll:  0
+    pitch: 0
+    yaw:   0
+  }
+}
+selectpatrolmode {
+  mode: 1       # 1:patrolpoint; 2:onepatrolpoint; 3:twopatrolpoint; 4:threepatrolpoint; 5:smallpatrolpoint
+}
+
+

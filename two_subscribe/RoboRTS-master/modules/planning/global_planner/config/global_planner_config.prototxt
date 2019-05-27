@@ -1,0 +1,7 @@
+  name: "a_star_planner"
+  selected_algorithm: "a_star_planner"
+  frequency: 3
+  max_retries: 5
+  goal_distance_tolerance_single: 0.2
+  goal_distance_tolerance_double: 0.7
+  goal_angle_tolerance: 3.14

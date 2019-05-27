@@ -1,0 +1,4 @@
+inflation_radius: 1.5     #给定机器人和障碍物之间必须要保证的最小距离
+cost_scaling_factor: 2.5   
+is_raw_rosmessage: true
+is_debug: true
